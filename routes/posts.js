@@ -2,6 +2,7 @@ const express = require('express');
 const router = express.Router();
 const postController = require('../controllers/postController');
 const authenticate = require('../middleware/authenticate');
+const x = 1
 
 router.post('/', authenticate, postController.createPost);
 router.get('/feed', authenticate, postController.getFeed);
