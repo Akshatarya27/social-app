@@ -33,7 +33,7 @@ app.use('/api/users', userRoutes);
 app.use('/api/posts', postRoutes);
 
 app.get('/',(res,req)=>{
-  res.send('HI WELCOME TO DAILY BUFFER TO HEROKU')
+  res.send('HI WELCOME TO HEROKU')
 
 })
 
